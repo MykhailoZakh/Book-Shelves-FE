@@ -13,7 +13,7 @@ import Navbar from './components/Navbar';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   // don't use my endpoint it will not work for you
-  uri: 'https://supercool-be.onrender.com/graphql', // grab your render back end deployment with /graphql at the end of it
+  uri: 'https://be-book-shel.onrender.com/graphql', // grab your render back end deployment with /graphql at the end of it
 });
 
 
